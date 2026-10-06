@@ -19,9 +19,9 @@ set -euo pipefail
 C="FR"
 ST="Ile-de-France"
 L="Paris"
-O="Crous de Paris"
-OU="DNUM"                   # vide = champ absent de la CSR
-EMAIL="informatique@crous-paris.fr"                # vide = champ absent de la CSR
+O="NosLand.com"
+OU=""                   # vide = champ absent de la CSR
+EMAIL="ssl@nosland.com"                # vide = champ absent de la CSR
 
 KEY_TYPE="rsa"          # rsa | ec
 RSA_BITS=2048
